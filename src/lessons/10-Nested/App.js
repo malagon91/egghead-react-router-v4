@@ -1,3 +1,16 @@
+//Video 11
+
+//Render Nested Routes with React Router v4
+
+/**
+ * With React Router v4 the entire library is built as a series of React components. 
+ * That means that creating nested Routes is as simple as creating any other nested element in your application.
+ */
+
+ /**
+  * Aqui generamos nuevas rutas dinamicamente de las rutas principales tomando como variable las subrutas que se asignan 
+  en los links
+  */
 import React from 'react';
 import {
   BrowserRouter as Router,

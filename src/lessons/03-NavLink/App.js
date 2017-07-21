@@ -1,4 +1,4 @@
-// https://jsbin.com/fibugif/
+// Video 4
 
 import React from 'react';
 import {
@@ -12,6 +12,15 @@ const isActiveFunc = (match, location) => {
   return match
 }
 
+
+/**
+ * Los NAvLink ayudan mas a saber en que tab estamos con el activeClassName o activeStyle
+ * la palabra exact se usa para que cuando el link este innactivo el color vuelva a como estaba 
+ * isActive={isActiveFunc} el metodo que se le asigne a isActive se ejecuta siempre que el nav se reendera 
+ * no solo cuando estan en el link donde se declaro
+ * ppero cuando esta en el link donde se declara el objeto match si tiene valores  cuando esta en otro tab
+ * ese objeto va null
+ */
 const Links = () => (
   <nav>
     <NavLink exact activeClassName="active" to="/">Home</NavLink>

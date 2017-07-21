@@ -1,3 +1,15 @@
+//Video 13
+
+//Intercept Route Changes with React Router v4 Prompt Component
+
+/**If a user has entered some input, or the current Route is in a “dirty” state and we want to confirm that 
+ * data will be lost, React Router v4 provides a Prompt component to interrupt the Route transition and ask the 
+ * user a question.
+ */
+/**
+ * Prompt sirve para mandar mensajes si en un router ahi campos llenos sin hacer submit pregunta si estas seguro de cambiar 
+ * de opcion
+ */
 import React from 'react';
 import {
   BrowserRouter as Router,

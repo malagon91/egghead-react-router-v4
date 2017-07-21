@@ -1,3 +1,17 @@
+//Video 12
+
+//Redirect to Another Page with React Router v4
+
+/**
+ * Overriding a browser's current location without breaking the back button or causing an infinite redirect 
+ * can be tricky sometimes. In this lesson we'll learn how React Router v4 allows us to easily achieve a 
+ * redirect without getting bogged down in browser history.
+
+ */
+/**
+ * Usamos el redirect para enviar a otro route pero conserva los param qcon los que inicio 
+ * 
+ */
 import React from 'react';
 import {
   BrowserRouter as Router,

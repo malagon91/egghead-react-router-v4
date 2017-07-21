@@ -1,3 +1,9 @@
+//video 6
+
+/**
+ * En este ejemplo solo se observa que para mejorar nuestras variables en el route es mejor validarlas con re-gex
+ * (regular explression) de esa forma evitamos que iongresen algun caracter raro
+ */
 import React from 'react';
 import {
   BrowserRouter as Router,

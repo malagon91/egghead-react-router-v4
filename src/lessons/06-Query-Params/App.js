@@ -1,5 +1,12 @@
-// https://jsbin.com/yamojid
+// Video 7
+//Parse Query Parameters in React Router v4
 
+
+/**
+ * con estas funciones podemos obtener todo el query de la URL a la que visitamos 
+ * la URL siempre genera un pos con un key diferente 
+ * 
+ */
 import React from 'react';
 import {
   BrowserRouter as Router,

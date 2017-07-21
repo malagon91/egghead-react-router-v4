@@ -1,4 +1,4 @@
-// https://jsbin.com/wemudus
+// Video 3
 
 import React from 'react';
 import {
@@ -14,7 +14,13 @@ const Links = () => (
     <Link replace to="/contact">Contact</Link>
   </nav>
 )
-
+/**
+ *El replace lo que hace en este ejemplo es si cuando inicia la app nos vamos a about y luego a contact al dar hacia 
+ atras el navegador nos lleva a home si no tenemos el replace nos llevara a about  
+ *
+ */
+//el ultimo link se asigna como replate lo que quiere decir que elimina la ruta anterior por una nueva 
+// por lo tanto tenemos que revisar si as asi como se tiene que poner en todos los links 
 const App = (props) => (
   <Router basename={props.path}>
     <div>
@@ -27,3 +33,7 @@ const App = (props) => (
 );
 
 export default App
+/**
+ * <Route exact path="/" render={() => <h1>Home</h1>} /> se puede hacer el render inline dentro del Router pero 
+ * lo mejor es crear componentes completamente separados para estas funciones
+ */
